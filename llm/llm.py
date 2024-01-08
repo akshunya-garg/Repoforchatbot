@@ -9,7 +9,7 @@ from langchain.llms.base import LLM
 from langchain.llms.utils import enforce_stop_tokens
 from langchain.utils import get_from_dict_or_env
 from langchain.chat_models import ChatOpenAI
-os.environ['OPENAI_API_KEY'] ="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" 
+os.environ['OPENAI_API_KEY'] =''
 os.environ['TOGETHER_API_KEY'] = ''
 
 class TogetherLLM(LLM):
